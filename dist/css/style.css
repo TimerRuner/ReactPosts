@@ -1,0 +1,24 @@
+body span {
+  color: red;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.modal._active {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 0 20px;
+}
+
+.modal-dialog {
+  flex: 1 1 500px;
+}
