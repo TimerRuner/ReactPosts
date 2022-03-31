@@ -22,3 +22,38 @@ body span {
 .modal-dialog {
   flex: 1 1 500px;
 }
+
+.login-page {
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+.login-page h1 {
+  text-align: center;
+}
+
+.navbar-nav.links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar-nav.links a.nav-link {
+  padding: 5px;
+}
+
+.close span {
+  padding: 10px;
+  color: white;
+}
+
+.open-btn {
+  margin: 0 0 0 10px;
+}
+
+.personal-card {
+  max-width: 900px;
+  padding: 0 20px;
+  margin: 30px auto 0 auto;
+}
